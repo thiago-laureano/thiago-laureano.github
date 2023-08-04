@@ -1,0 +1,130 @@
+body{
+	background: black;
+}
+
+a{
+	text-decoration: none;
+	color: #FF0000;
+	padding: 5px 18px;
+}
+/*Links não visitados*/
+a:link {
+	color: #c5c5b2;
+}
+
+/*Links Visitados*/
+a:visited{
+	color: #c5c5b2;
+}
+
+/*Links Hover, passa o cursor sobre o link*/
+a:hover{
+	color: #FF0000;
+	background: #black;
+}
+
+/*Links Ativos, quando clicado*/
+a:active{
+	color: #e4f371;
+}
+
+#menu{
+	background: black;
+	color: white;
+	width: 850px;
+	padding: 5px;
+}
+
+#corpo{
+	width: 850px;
+	text-align:center;
+	margin: 30px auto;
+}
+
+.filmes{
+	height: 500px;
+	width: 200px;
+	background-color: black;	
+	margin: 30px 40px;
+	float: left;
+}
+
+.livros{
+	height: 450px;
+	width: 200px;
+	background-color: black;	
+	margin: 30px 40px;
+	float: left;
+}
+
+.sugestoes{
+	color: White;
+	text-align: left;
+	color: red;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-shadow: 0 0 15px white;
+
+}
+
+.cor{
+	color: #A4A4A4;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-shadow: 0 0 12px white;
+}
+
+.sobre{
+	color: red;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+
+h1{
+	color: red;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;	
+	height: 30px;
+	width: 200px;
+	font-weight: bold;
+	text-shadow: 0 0 15px white;
+	
+}
+
+h2{
+	color: #A4A4A4;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 4px;
+	font-weight: bold;
+	text-shadow: 0 0 12px white;
+}
+
+h3{
+	color: red;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 4px;
+	font-weight: bold;
+	text-shadow: 0 0 12px white;
+}
+
+h4{
+	color: #A4A4A4;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: left;
+	padding: 4px;
+	font-weight: bold;
+}
+
+
+
+border-radius: 10px;
+	background-color: #1c1c28;
+

@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+}
+
+.cidade {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.primeiro-quadro {
+    background: #000000;
+    opacity: 0.8;
+    border-radius: 25px;
+    padding: 20px;
+    width: 95%;
+    max-width: 450px;
+}
+
+.segundo-quadro {
+    margin-top: 30px;
+}
+
+.terceiro-quadro {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: #ffffff;
+    width: calc(100% - 80px);
+}
+
+.button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #7c7c7c2b;
+    cursor: pointer;
+    float: right;
+}
+
+.lupa {
+    width: 20px;
+}
+
+.temperatura{
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.clima {
+    color: #ffffff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.umidade {
+    color: #ffffff;
+    margin-top: 20px;
+}
